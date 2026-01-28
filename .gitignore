@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Log files
+*.log
+
+# Dataset files (if large or confidential)
+dataset.csv
+
+# Pre-trained embeddings (GloVe, Word2Vec, etc.)
+glove.6B.*
+*.txt   # optional, if you only want source embeddings locally
+
+# Saved model weights / checkpoints
+*.h5
+*.hdf5
+*.ckpt
+
+# TensorFlow / Keras cache
+saved_model/
+tensorflow_datasets/
+
+# PyCharm / VSCode config (optional)
+.idea/
+.vscode/
